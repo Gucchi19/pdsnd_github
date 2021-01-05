@@ -190,6 +190,9 @@ def user_stats(df):
     print('-'*40)
 
 def data_load(df):
+    """Displays some raw data."""
+
+    # TO DO: Display some raw data
     data_load = input('\nWould you like to view some data?\nPlease enter yes or no\n').lower()
     pd.set_option('display.max_rows',200)
     if data_load in ('yes', 'y'):
